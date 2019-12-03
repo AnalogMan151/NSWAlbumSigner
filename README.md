@@ -1,8 +1,13 @@
 # NSWAlbumSigner
+
 Author: AnalogMan
+
 Modified Date: 2019-12-03
+
 Purpose: Signs JPG files for use with Nintendo Switch Album app
+
 Usage: `NSWAlbumSigner.py [-h] [-t TITLEID] [-d DATE] file [file ...]`
+
 Requirements: Pillow, piexif, pycypto (`pip3 install Pillow piexif pycrypto`)
 
 Credits: 
