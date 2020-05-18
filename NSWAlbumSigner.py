@@ -52,7 +52,7 @@ except:
 piexif._dump._get_thumbnail = lambda jpeg: jpeg
 
 # https://www.google.com/search?q=%22Nintendo+Switch+capsrv+screenshot+HMAC+secret%22
-hmac_secret = bytes.fromhex('REAPLCE ME WITH CAPSRV HAMC SECRET KEY')
+hmac_secret = bytes.fromhex('REPLACE ME WITH CAPSRV HAMC SECRET KEY')
 
 # https://www.google.com/search?q=%22mysterious+RNG+seeds%22
 captureID_key = bytes.fromhex('REPLACE ME WITH CAPTUREID KEY')
